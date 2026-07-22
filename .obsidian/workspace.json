@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "juce_course/3.audio_thread.md",
+                "file": "dsp/project_μ_notes/1.wave.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.audio_thread"
+              "title": "1.wave"
             }
           },
           {
@@ -240,10 +240,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "7151f4dfdb636c4c",
+  "active": "50f961591cbc63fb",
   "lastOpenFiles": [
-    "juce_course/2.audio_plugin_anatomy.md",
+    "dsp/project_μ_notes/images/quantized_3.png",
+    "dsp/project_μ_notes/images/quantized_2.png",
+    "dsp/project_μ_notes/add_notes/Unsigned.md",
+    "dsp/project_μ_notes/1.wave.md",
+    "().md",
+    "dsp/frequency_and_fourier.md",
+    "dsp/project_μ_notes/images/quantized_1.png",
+    "dsp/project_μ_notes/images/aliasing_signals_2.png",
+    "dsp/project_μ_notes/images/aliasing_signals_1.png",
+    "dsp/project_μ_notes/add_notes/discrete.md",
+    "dsp/project_μ_notes/images",
+    "dsp/project_μ_notes/images/period.png",
     "juce_course/3.audio_thread.md",
+    "juce_course/2.audio_plugin_anatomy.md",
     "juce_course/1.digital_audio_basics _transcript_note.md",
     "juce_course/1.digital_audio_basics.md",
     "audio-programming-curriculum.md",

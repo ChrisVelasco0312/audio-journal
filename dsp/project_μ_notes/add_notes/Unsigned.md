@@ -1,0 +1,2 @@
+In computing and digital audio, unsigned means that numbers are represented purely as non-negative integers—meaning they have no negative sign bit.
+https://www.thoughtco.com/definition-of-unsigned-958174
