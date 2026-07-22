@@ -36,15 +36,13 @@ Each topic in this curriculum is split into two clearly-labelled blocks:
 | **VIDEO (FREE)**     | Free YouTube/lecture video series.                                                                                                                                                |
 | **COMMUNITY (FREE)** | Free forum / Discord / Reddit to ask questions.                                                                                                                                   |
 
-### Note on pricing (verify before enrolling)
+### Note on pricing
 
-> **Coursera (as of July 2026):** In mid-2025, Coursera replaced its "Free Audit" mode with "Preview Mode," which allows free access to only the _first module_ of most courses. Full content now requires paying for the individual course or subscribing to Coursera Plus ($59/month or $399/year). Some courses may still offer "Full Course, No Certificate" access, but availability varies.
+> This curriculum is built around **100% free** resources. Every course, video, and reference below is accessible for $0 at the time of writing. When a topic was historically covered only by a paid MOOC (e.g. Coursera, edX paid certificates), an open substitute has been sourced and listed instead — usually an MIT OCW course, an NPTEL/Swayam video lecture series, a Stanford CCRMA online book, an official library tutorial, or a high-quality YouTube series.
 >
-> **edX** kept free audit mode on most of its courses (verify each course's enrollment page).
->
-> Always check the current pricing on the platform before enrolling. Free alternatives are listed beside every paid resource in this curriculum.
+> MOOC platforms change their free/audit/preview policies over time (Coursera replaced "Free Audit" with "Preview Mode" in mid-2025; edX still keeps free audit on most courses). Always verify current pricing before enrolling on _any_ platform, but you should not need to: every topic below has a fully free path.
 
-**Cheapest viable path (everything you can get for $0):** If you only spend the absolute minimum, you can complete Levels 0–5 using _only_ MIT OCW, Khan Academy, Think DSP, dspguide.com, the JUCE course, The Cherno, and free YouTube/community resources. Books marked **BOOK (MAIN)** are the only purchases the curriculum treats as "near-essential" — and even those are skippable if you are willing to hunt harder for free online coverage of the same topics.
+**Cheapest viable path (everything you can get for $0):** If you only spend the absolute minimum, you can complete Levels 0–5 using _only_ MIT OCW, Khan Academy, NPTEL/Swayam, Think DSP, dspguide.com, the JUCE course, The Cherno, Stanford CCRMA online books, the Hugging Face Audio course, librosa, and free YouTube/community resources. Books marked **BOOK (MAIN)** are the only purchases the curriculum treats as "near-essential" — and even those are skippable if you are willing to hunt harder for free online coverage of the same topics.
 
 ---
 
@@ -183,7 +181,7 @@ Understanding how sound works in the physical world is essential before processi
 
 | Resource                                                                                    | Tag           | Cost                | Link                                               | Notes                                                                                              |
 | ------------------------------------------------------------------------------------------- | ------------- | ------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **University of Rochester — Fundamentals of Audio and Music Engineering Part 1** (Coursera) | COURSE (PAID) | May require payment | <https://www.coursera.org/learn/audio-engineering> | Coursera Preview Mode: only first module free. Covers vibrations, waves, electronics fundamentals. |
+| **Sound On Sound — Techniques & "Synth Secrets" archive** | REFERENCE (FREE) | Free | Techniques: <https://www.soundonsound.com/techniques> · Synth Secrets series: <https://www.soundonsound.com/series/synth-secrets> | Free practitioner archive covering the audio-engineering side of the former Rochester MOOC: microphones & miking, amplifiers, monitors & monitoring, signal processors, PA / live sound, transducers, audio-electronics, and a "Theory & Technical" section. Read articles alongside MIT OCW 8.03 as you encounter each device-class (mic, preamp, cabinet, amplifier, pickup) in the lectures — learn the electronics _in the audio context_, never as a standalone EE course. |
 
 **What to learn:**
 
@@ -207,7 +205,8 @@ Understanding how sound works in the physical world is essential before processi
 
 | Resource                                             | Tag           | Cost                | Link                                                | Notes                                                                                                                                                                                                |
 | ---------------------------------------------------- | ------------- | ------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Intro to Acoustics Part 1 & 2** (KAIST — Coursera) | COURSE (PAID) | May require payment | <https://www.coursera.org/learn/intro-to-acoustics> | Coursera Preview Mode: only first module free. Intermediate level, requires calculus. (Part 2 lives on a neighbouring slugged course — search "intro-to-acoustics" on Coursera if the link changes.) |
+| **Acoustics and Ultrasonics** (IIT Kanpur, Prof. Nachiketa Tiwary — NPTEL/Swayam) | COURSE (FREE) | Free | <https://nptel.ac.in> (catalog) · direct course ID varies, search "Acoustics and Ultrasonics" or by instructor | Free video lectures. Intermediate, calculus-based. Covers wave equation, acoustic impedance, propagation, transducers — the same ground as the former KAIST MOOC. |
+| **The Open University — Sound & acoustics OpenLearn units** | COURSE (FREE) | Free | <https://www.open.edu/openlearn> (search "sound", "acoustics", "noise") | Several short, free, badged courses on acoustics, noise, and hearing. Gentle alternative if NPTEL feels too dense. |
 
 **What to learn:**
 
@@ -320,7 +319,7 @@ _"DSP is the heart of audio programming."_
 | Resource                                                                       | Tag           | Cost                | Link                                                                 | Notes                                                                                                                                                        |
 | ------------------------------------------------------------------------------ | ------------- | ------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Understanding Digital Signal Processing** by Richard G. Lyons                | BOOK (BIB)    | ~$80                | Search by title + author (Pearson/Prentice Hall)                     | More math than Think DSP / Smith. Reads after the free intro material. Buy only if the free MIT OCW path feels insufficient — it is excellent but skippable. |
-| **EPFL Digital Signal Processing 1: Basic Concepts and Algorithms** (Coursera) | COURSE (PAID) | May require payment | <https://www.coursera.org/specializations/digital-signal-processing> | Coursera Preview Mode: only first module free. Intermediate. The MIT RES.6-007 course above is the free alternative.                                         |
+| **NPTEL — Digital Signal Processing** (various IIT instructors) | COURSE (FREE) | Free | <https://nptel.ac.in> (search "Digital Signal Processing") · YouTube mirror: <https://www.youtube.com/results?search_query=NPTEL+Digital+Signal+Processing> | Free, calculus-based video lecture series covering discrete-time signals, LTI systems, Z-transform, filter design, DFT/FFT. Listen alongside MIT RES.6-007 for a second lecturer's take on the same material. |
 
 **Core topics to master:**
 
@@ -362,14 +361,17 @@ _"Now we apply DSP to the domain of sound and music."_
 
 | Resource                                                                                           | Tag           | Cost                           | Link                                                     | Notes                                                                                                                                                                                                                                         |
 | -------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Audio Signal Processing for Music Applications** (Xavier Serra & Julius O. Smith — Stanford/UPF) | COURSE (PAID) | Coursera; check current access | <https://www.coursera.org/learn/audio-signal-processing> | Spectral processing, DFT, STFT, sinusoidal model, harmonic model. Excellent bridge between DSP theory and audio. Coursera's audit/preview availability varies — try the course page. If unavailable free: see bibliography alternative below. |
+| **Spectral Audio Signal Processing** (Julius O. Smith III — Stanford CCRMA, online book) | BOOK (MAIN) | Free online | <https://ccrma.stanford.edu/~jos/sasp/sasp.html> | **START HERE.** Free, comprehensive online book by one of the authors of the original Coursera course. Covers STFT, sinusoidal/harmonic models, spectral modeling synthesis, phase vocoder, filter banks, time-scale modification. Read it cover-to-cover — it _is_ the course material. Work through the Matlab/Octave examples. |
+| **librosa — Tutorial & docs** (Brian McFee et al.) | REFERENCE (FREE) | Free | Tutorial: <https://librosa.org/doc/latest/tutorial.html> · main site: <https://librosa.org> | Python library + tutorials covering STFT, mel/MFCC/chroma features, beat tracking, HPSS. The practical, hands-on complement to the CCRMA book above. Run the quickstart and advanced feature-extraction examples end-to-end. |
+| **MTG — freesound & Essentia tutorials** (Music Technology Group, UPF) | REFERENCE (FREE) | Free | Freesound: <https://freesound.org> · Essentia: <https://essentia.upf.edu> | The lab behind the former Coursera course releases open-source tools and free teaching materials. Essentia has thorough tutorials on the same analysis techniques (spectral peaks, sinusoidal modeling, descriptors). |
 
 ##### BIBLIOGRAPHY REFERENCES
 
 | Resource                                                                         | Tag              | Cost                 | Link                                                                 | Notes                                                                                                                                           |
 | -------------------------------------------------------------------------------- | ---------------- | -------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Hack Audio** by Eric Tarr                                                      | BOOK (BIB)       | Book ~$50; site free | Book: search by title (CRC Press). Site: <https://www.hackaudio.com> | Accessible intro to audio processing algorithms. Code examples on hackaudio.com with video tutorials. MATLAB (Python on GitHub).                |
-| **Spectral Modeling Synthesis — online notes** (Julius O. Smith, Stanford CCRMA) | REFERENCE (FREE) | Free                 | <https://ccrma.stanford.edu/~jos/sasp/sasp.html>                     | Free, comprehensive online book covering everything the Coursera course teaches. Use as the free alternative to the Coursera paid course above. |
+| **Spectral Modeling Synthesis — online book** (Julius O. Smith, Stanford CCRMA) | REFERENCE (FREE) | Free | <https://ccrma.stanford.edu/~jos/sms/sms.html> | Companion CCRMA book by Smith covering sinusoidal/sines+noise modeling, the analysis-synthesis framework behind much of the audio signal-processing literature above. Skim the chapters corresponding to topics you want to deepen. |
+| **Mathematics of the DFT (DFT/FFT)** (Julius O. Smith, Stanford CCRMA) | REFERENCE (FREE) | Free | <https://ccrma.stanford.edu/~jos/mdft/mdft.html> | Free CCRMA online book giving the math underneath the DFT/FFT used throughout Section 2.1. Open when the Spectral Audio book throws a Fourier identity you want to verify. |
 
 **Core topics to master:**
 
@@ -572,7 +574,9 @@ _"Choose your path."_
 
 | Resource                                                              | Tag           | Cost                | Link                                                              | Notes                                                                            |
 | --------------------------------------------------------------------- | ------------- | ------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **ML for Audio Signal Processing** (various Coursera specializations) | COURSE (PAID) | May require payment | Search "Machine Learning for Audio" on <https://www.coursera.org> | Neural networks for audio classification, source separation, speech enhancement. |
+| **Hugging Face — Audio Course** (Sanchit Gandhi, Matthijs Hollemans et al.) | COURSE (FREE) | Free | <https://huggingface.co/learn/audio-course> | 100% free, open-source, $0 certificate of completion. Transformer architectures for audio: classification, ASR, TTS, speech translation. Hands-on notebooks, all on Hugging Face. The single best free replacement for paid "ML for Audio" MOOCs. |
+| **The Sound of AI — YouTube channel** (Valerio Velardo) | VIDEO (FREE) | Free | <https://www.youtube.com/@ValerioVelardoTheSoundofAI> | Deep-dive video lectures on deep learning for audio: spectrograms, CNNs/RNNs for audio, source separation, automatic drum transcription, music generation. Full free course-style playlists. |
+| **Stanford CS229 — Machine Learning** (Andrew Ng) + audio notebooks | COURSE (FREE) | Free | Lectures: search "CS229 Andrew Ng YouTube" · notes: <https://cs229.stanford.edu> | Free ML foundation (this transfers cleanly to audio via librosa + PyTorch audio tutorials). Take this first if you have no ML background before the Hugging Face / Sound-of-AI courses above. |
 
 ### 5.3 — Game Audio Programming
 
@@ -640,7 +644,7 @@ _"Choose your path."_
 
 ## RECOMMENDED STUDY SCHEDULE
 
-> Coursera courses below are marked **[PAID]** — assume only the first module is free unless the course page explicitly says otherwise. Free alternatives are noted.
+> Every resource in this schedule is free. Optional **[BOOK MAIN]** purchases are noted but not required.
 
 ### Phase 1: Foundations (Months 1-4)
 
@@ -652,7 +656,7 @@ _"Choose your path."_
 
 - **Month 5**: Think DSP (book) **[FREE]** — read cover-to-cover, do the exercises
 - **Months 5-6**: dspguide.com **[FREE]** — read alongside Think DSP
-- **Month 7**: Audio Signal Processing for Music Applications (Stanford/UPF on Coursera) **[PAID]** OR the free CCRMA online notes by Julius O. Smith **[FREE]**
+- **Month 7**: Audio Signal Processing for Music Applications — Spectral Audio Signal Processing (Stanford CCRMA online book by Julius O. Smith) **[FREE]** + work through the librosa tutorial quickstart examples **[FREE]**
 - **Month 8**: MIT RES.6-007 — Signals and Systems **[FREE]** (Lyons book **[BOOK BIB]** optional, only if you want a deeper textbook on top of Oppenheim)
 
 ### Phase 3: Audio Prototyping (Months 9-10)
