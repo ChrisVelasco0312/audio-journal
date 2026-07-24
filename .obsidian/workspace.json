@@ -8,91 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e025b06d099c368",
+            "id": "140893e1350f5176",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "juce_course/3.audio_thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "3.audio_thread"
             }
           },
           {
-            "id": "6d7b2455f9a807fa",
+            "id": "dda3939af406b422",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "juce_course/2.audio_plugin_anatomy.md",
+                "file": "juce_course/3.audio_thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.audio_plugin_anatomy"
-            }
-          },
-          {
-            "id": "7151f4dfdb636c4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dsp/project_μ_notes/1.wave.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.wave"
-            }
-          },
-          {
-            "id": "e9ee3ef8b61a7078",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "juce_course/1.digital_audio_basics _transcript_note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.digital_audio_basics _transcript_note"
-            }
-          },
-          {
-            "id": "5d4f3dd9bb4d5c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "audio-programming-curriculum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "audio-programming-curriculum"
-            }
-          },
-          {
-            "id": "642fd42b3ce2d1f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dsp/thinkdsp/1.sound_signal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.sound_signal"
+              "title": "3.audio_thread"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
+      },
+      {
+        "id": "79f70af06e048b81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "433efb99636817a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "juce_course/ai_notes/3.audio_thread.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.audio_thread"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 327.5
   },
   "right": {
     "id": "05ca1aa60e0e3a27",
@@ -254,11 +218,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "50f961591cbc63fb",
+  "active": "dda3939af406b422",
   "lastOpenFiles": [
+    "juce_course/reference_notes/total round-trip latency.md",
+    "juce_course/3.audio_thread.md",
+    "juce_course/slide_shots/plugin_processor_cycle.png",
+    "juce_course/images/frame.png",
+    "juce_course/slide_shots/lifecycle.png",
+    "juce_course/images/audio_stack.png",
+    "juce_course/ai_notes/3.audio_thread.md",
+    "juce_course/ai_notes/2.audio_plugin_anatomy.md",
+    "juce_course/2.plugin_anatomy.md",
+    "c++/allocate.md",
+    "c++/pointers_guide.md",
+    "c++/pointer.md",
+    "c++",
+    "juce_course/1.digital_audio_basics.md",
+    "juce_course/slide_shots",
+    "juce_course/slide_shots/editor_processor.png",
+    "juce_course/ai_notes/1.digital_audio_basics _transcript_note.md",
+    "juce_course/ai_notes/3.audio_thread_2.md",
+    "juce_course/reference_notes/1.1.extra_audio_basics_note.md",
+    "juce_course/reference_notes",
+    "juce_course/ai_notes",
+    "dsp/thinkdsp/1.sound_signal.md",
     "dsp/thinkdsp/images/segment.png",
     "dsp/thinkdsp/images/wave_plotted_1.png",
-    "dsp/thinkdsp/1.sound_signal.md",
     "dsp/thinkdsp/images/spectrum_violin.png",
     "dsp/thinkdsp/images/Untitled.md",
     "dsp/thinkdsp/images",
@@ -266,25 +251,14 @@
     "dsp/project_μ_notes/1.wave.md",
     "dsp/thinkdsp",
     "dsp/project_μ_notes/images/quantized_3.png",
-    "dsp/project_μ_notes/images/quantized_2.png",
     "dsp/project_μ_notes/add_notes/Unsigned.md",
     "().md",
     "dsp/frequency_and_fourier.md",
-    "dsp/project_μ_notes/images/quantized_1.png",
-    "dsp/project_μ_notes/images/aliasing_signals_2.png",
-    "dsp/project_μ_notes/images/aliasing_signals_1.png",
     "dsp/project_μ_notes/add_notes/discrete.md",
     "dsp/project_μ_notes/images",
-    "dsp/project_μ_notes/images/period.png",
-    "juce_course/3.audio_thread.md",
-    "juce_course/2.audio_plugin_anatomy.md",
-    "juce_course/1.digital_audio_basics _transcript_note.md",
-    "juce_course/1.digital_audio_basics.md",
     "audio-programming-curriculum.md",
-    "juce_course/1.1.extra_audio_basics_note.md",
     "linux_audio_pills/1.checking_audio_sample_rate.md",
     "linux_audio_pills",
-    "juce_course/images/frame.png",
     "juce_course/images",
     "Welcome.md",
     "juce_course",
