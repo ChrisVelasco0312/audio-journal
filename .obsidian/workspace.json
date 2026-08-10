@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "begginer_juce_book/1.5_sampling_rate.md",
+                "file": "begginer_juce_book/2_juce_cpp/2_getting_know_cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.5_sampling_rate"
+              "title": "2_getting_know_cpp"
             }
           },
           {
@@ -199,14 +199,24 @@
   },
   "active": "69a8b52758f341d1",
   "lastOpenFiles": [
-    "begginer_juce_book/1.4_intro_digital_audio.md",
-    "begginer_juce_book/1.5_sampling_rate.md",
+    "begginer_juce_book/2_juce_cpp/1.main_files.md",
+    "begginer_juce_book/2_juce_cpp/2_getting_know_cpp.md",
+    "begginer_juce_book/1_concepts/1.1_plugin_formats.md",
+    "begginer_juce_book/2_juce_cpp",
+    "begginer_juce_book/1_concepts/1.9_audio_blocks_buffers.md",
+    "begginer_juce_book/1_concepts",
+    "begginer_juce_book/images/audio_thread_1.png",
+    "begginer_juce_book/1_concepts/1.7_quantization_bit_depth.md",
+    "begginer_juce_book/1_concepts/1.6_closer_look_samples.md",
+    "begginer_juce_book/images/zoomed_sample.png",
+    "begginer_juce_book/1_concepts/1.5_sampling_rate.md",
+    "Untitled",
+    "begginer_juce_book/1_concepts/1.4_intro_digital_audio.md",
     "begginer_juce_book/images/Pasted image 20260804181041.png",
     "begginer_juce_book/images/audio_segment.png",
-    "begginer_juce_book/1.1_plugin_formats.md",
     "begginer_juce_book/images/waveform.png",
-    "begginer_juce_book/1.3_plugin_params.md",
-    "begginer_juce_book/1.2_host_com.md",
+    "begginer_juce_book/1_concepts/1.3_plugin_params.md",
+    "begginer_juce_book/1_concepts/1.2_host_com.md",
     "begginer_juce_book/images",
     "begginer_juce_book/images/plugin_lifecycle.png",
     "juce_course/ai_notes/5_first_look_audio_code.md",
@@ -229,21 +239,11 @@
     "c++/primer/chap_3/1.1_bits_and_bytes.md",
     "c++/primer/chap_3/1.2_short_int_long.md",
     "c++/primer/arrays.md",
-    "c++/reference/pointer.md",
-    "general_ref/binary_hexadecimal.md",
-    "audio-programming-curriculum.md",
     "general_ref",
-    "juce_course/3.audio_thread.md",
-    "juce_course/2.plugin_anatomy.md",
     "dsp/thinkdsp/images/spectrum_violin.png",
     "dsp/thinkdsp/images/violin_signal.png",
-    "dsp/thinkdsp/images/wave_plotted_1.png",
     "c++/primer/chap_3",
     "c++/primer/chap_2",
-    "c++/primer/images",
-    "c++/primer/images/header_name_convention.png",
-    "c++/primer",
-    "c++/reference",
-    "c++"
+    "c++/primer/images"
   ]
 }
