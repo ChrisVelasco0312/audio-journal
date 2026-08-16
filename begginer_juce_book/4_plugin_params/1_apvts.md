@@ -36,21 +36,5 @@ is used to tell APVTS we do not want an undo manager
 > for a constructor { } are used to differentiate between
 > calling a function and using a constructor
 
-## implementation
 
-```cpp
-juce::AudioProcessorValueTreeState::ParameterLayout
-	DelayAudioProcessor::createParameterLayout()
-{
-	juce::AudioProcessorValueTreeState::ParameterLayout layout;
-	
-	layout.add(std::make_unique<juce::AudioParameterFloat>(
-		juce::ParameterId { "gain", 1 },
-		"Output Gain",
-		juce::NormalisableRange<float> { -12.0f, 12.0f },
-		0.0f
-	));
-	
-	return layout;
-}
-```
+
